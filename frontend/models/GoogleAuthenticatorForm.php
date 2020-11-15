@@ -9,9 +9,7 @@
 namespace frontend\models;
 
 
-use common\helper\EncryptionHelper;
 use common\helper\GoogleAuthenticator;
-use common\helper\RandomAlphanumericGeneratorHelper;
 use common\models\DeviceInformation;
 use Yii;
 use yii\base\Model;

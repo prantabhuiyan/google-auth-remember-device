@@ -1,7 +1,6 @@
 <?php
 namespace frontend\controllers;
 
-use common\helper\EncryptionHelper;
 use common\helper\GoogleAuthenticator;
 use common\models\DeviceInformation;
 use frontend\models\GoogleAuthenticatorForm;
