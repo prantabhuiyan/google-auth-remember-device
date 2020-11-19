@@ -66,11 +66,6 @@ class SignupForm extends Model
         $user->generateEmailVerificationToken();
         $user->codes = json_encode((object)GoogleAuthenticator::generateDefaultCode());
 
-//        print_r($user->codes);
-//        die();
-
-
-//        print_r($user);
         return $user->save() && $this->sendEmail($user);
 
     }
